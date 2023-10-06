@@ -1,5 +1,38 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "usuarios": [
+    {
+      "nombre": "Ivan",
+      "email": "silvaivan280@gmail.com",
+      "password": 1234567,
+      "estado": "activo",
+      "perfil": "administrador"
+    },
+    {
+      "nombre": "Gonzalo",
+      "email": "gonzalo12@gmail.com",
+      "password": 9876543,
+      "estado": "activo",
+      "perfil": "cliente"
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Pizza mozzarella",
+      "estado": "activo",
+      "precio": 2000,
+      "detalle": "salsa de tomate, queso mozzarella, morrones y aceitunas",
+      "categoria": "Pizzas",
+      "imagen": "https://images.pexels.com/photos/365459/pexels-photo-365459.jpeg"
+    }
+  ],
+  "pedido": {
+    "usuario": "ivan",
+    "fecha": "06/10/2023",
+    "productosDelMenu": "Pizza mozzarella",
+    "estado": "activo"
+  },
+  "categoria": {
+    "nombre": "Pizza mozzarella",
+    "estado": "activo"
+  }
 }
